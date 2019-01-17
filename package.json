@@ -1,0 +1,18 @@
+{
+  "name": "mit-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:eeg": "nodemon --inspect -e js,graphql src/eeg.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.18.9",
+    "osc": "^2.2.4",
+    "ws": "^6.1.2"
+  }
+}
