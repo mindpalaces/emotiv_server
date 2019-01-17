@@ -9,12 +9,12 @@ const options = { verbose };
 const client = new Cortex(options);
 
 
-
+//check Emotiv website for headset/account creds
 const auth = {
-  username: 'mindpalace',
-  password: 'M1ndp4l4c3!',
-  client_id: "PpcHRpFW3XfkbX8tlO7iAmIA0ohio6Yoat7KlZNA",
-  client_secret: "drDzKXjDAZ3JvfhZXOHEwXMvGUR389WGlH7YEliFHtR4pnAQ5jkywnQ3WYRXVywHroVJPHhLhRM8z2DSKXUL6dq7m54xXgYzyLjwsmzFgCcLbQx5F56TkiKGUXwchoIv",
+  username: '',
+  password: '',
+  client_id: '',
+  client_secret: '',
   debit: 1,
 }
 
